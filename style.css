@@ -1,3 +1,37 @@
 body {
-	font-family: "Nova Square";
+	font-family: "Lato";
+	background-image: url("CHAD.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #1E6C93;
+	background-attachment: fixed;
+	background-position: 0px 300px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 2;
+}
+.topnav a {
+  float: left;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 0.8;
+}
+.topnav a:hover {
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 1;
+}
+.topnav a.active {
+	font-weight: bold;
+	opacity: 1;
+}
+.icon {
+	height: 20px;
+	width: auto;
 }
