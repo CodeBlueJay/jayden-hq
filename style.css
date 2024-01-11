@@ -5,7 +5,16 @@ body {
     background-size: cover;
 	background-color: #1E6C93;
 	background-attachment: fixed;
-	background-position: 0px 300px;
+	background-position: center;
+}
+h2 {
+	color: #1E6C93;
+	font-family: "Lato";
+	font-size: 60px;
+	font-weight: 100px;
+}
+p {
+	font-family: "Lato";
 }
 .topnav {
   overflow: hidden;
@@ -34,4 +43,10 @@ body {
 .icon {
 	height: 20px;
 	width: auto;
+}
+.home-body {
+	background-color: white;
+}
+.youtube-vids {
+	gap: 10px;
 }
